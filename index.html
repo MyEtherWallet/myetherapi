@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mewApp">
+<head>
+  <meta charset="utf-8">
+  <title>MyEtherAPI: An API by MyEtherWallet</title>
+  <link rel="canonical" href="https://www.myetherapi.com" />
+  <meta name="description" content="Finally, we've evolved to have an API WITH documentation">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/myetherapi-master.min.css">
+  <script type="text/javascript" src="js/myetherapi-master.js"></script>
+  <link rel="apple-touch-icon" sizes="60x60" href="images/fav/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/fav/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/fav/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/fav/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/fav/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="images/fav/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/fav/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="images/fav/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="images/fav/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="images/fav/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="images/fav/manifest.json">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2e4868">
+  <meta name="msapplication-TileImage" content="images/fav/mstile-144x144.png">
+  <meta name="msapplication-config" content="images/fav/browserconfig.xml">
+  <meta name="theme-color" content="#2e4868">
+</head>
+
+<body>
+
+  <header>
+    <section class="container-fluid bg-gradient header-branding">
+      <section class="container">
+
+        <a class="brand" href="https://www.myetherapi.com/"><img src="images/etherwallet-logo.svg" height="64px" width="auto" alt="MyEtherWallet" /></a>
+
+        <div class="tagline"> An API by MyEtherWallet &middot; v0.0.1 </div>
+
+      </section>
+    </section>
+  </header>
+
+  <section class="container">
+
+  <h2> Endpoints </h2>
+  <table class="table striped">
+    <thead>
+      <tr>
+        <th> Name </th>
+        <th> Endpoint </th>
+        <th> Type </th>
+        <th> EIP-155 </th>
+        <th> Chain ID </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> ETH </td>
+        <td> <a href="https://api.myetherapi.com/eth" target="_blank">https://api.myetherapi.com/eth</a> </td>
+        <td> Parity </td>
+        <td> TRUE </td>
+        <td> 1 </td>
+      </tr>
+      <tr>
+        <td> Ropsten </td>
+        <td> <a href="https://api.myetherapi.com/rop" target="_blank">https://api.myetherapi.com/rop</a> </td>
+        <td> Parity </td>
+        <td> TRUE </td>
+        <td> 3 </td>
+      </tr>
+    <tbody>
+  </table>
+
+  <h2> Calls </h2>
+  <table class="table striped">
+    <thead>
+      <tr>
+        <th>
+          This Stuff
+        </th>
+        <th>
+          More Info
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          JSON RPC Methods
+        </td>
+        <td>
+          <a href="https://github.com/ethereum/wiki/wiki/JSON-RPC#json-rpc-methods" target="_blank">https://github.com/ethereum/wiki/wiki/JSON-RPC#json-rpc-methods</a>
+        </td>
+      </tr>
+      <tr>
+        <td> Web3 </td>
+        <td> <code>web3.setProvider(new web3.providers.HttpProvider('PUT_ENDPOINT_URL_HERE')</code> </td>
+      </tr>
+    <tbody>
+  </table>
+
+  <h2> Examples: JSON RPC </h2>
+  <h5>Example 1</h5>
+  <pre><code>
+    // Request
+    curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x407d73d8a49eeb85d32cf465507dd71d507100c1", "latest"],"id":1}'
+
+    // Result
+    {
+      "id":1,
+      "jsonrpc": "2.0",
+      "result": "0x0234c8a3397aab58" // 158972490234375000
+    }
+  </code></pre>
+
+  <h2> Examples: Web3 </h2>
+  <h5>Example 1</h5>
+  <pre><code>
+    ???
+  </code></pre>
+
+  <h2> Pricing </h2>
+  <table class="table striped">
+    <thead>
+      <tr>
+        <th> Number of Requests / Month </th>
+        <th> Price / Month </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 1,000,000 </td>
+        <td> 1,000,000 ETH </td>
+      </tr>
+      <tr>
+        <td> 10,000,000 </td>
+        <td> 5,000,000 ETH </td>
+      </tr>
+    <tbody>
+  </table>
+
+  <h2> Support </h2>
+  <p> Fuck you, we don't do support anymore. </p>
+
+  </section>
+
+  <footer>
+  </footer>
+
+</body>
+
+</html>
