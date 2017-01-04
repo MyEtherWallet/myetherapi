@@ -14,7 +14,7 @@ filter2.watch(function(error, result) {
     if (!error) {
         web3.eth.getBlock(result, function(error, data) {
 			if (!error)
-				$("#newBlocks tr:first").after('<tr><td>'+data.hash.substr(0,20)+'...</td><td>'+data.number+'</td><td> '+data.miner+'</td><td> '+data.uncles.length+'</td></tr>');
+				$("#newBlocks tr:first").after('<tr><td>'+data.hash.substr(0,20)+'...</td><td>'+data.number+'</td><td> '+data.miner+'</td><td> '+data.transactions.length+'</td></tr>');
         });
     }
 });
