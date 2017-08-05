@@ -6,15 +6,15 @@
 
 ### The Basics
 
-##### Endpoints
+#### Endpoints
 - **ETH**: https://api.myetherapi.com/eth, Parity,	Supports EIP-155, ChainID=1
 - **Ropsten**:	https://api.myetherapi.com/rop,	Parity,	Supports EIP-155,	3
 
-##### Call Types
+#### Call Types
 - **JSON RPC Methods**: https://github.com/ethereum/wiki/wiki/JSON-RPC#json-rpc-methods
 - **Web3**:	web3.setProvider(new web3.providers.HttpProvider('PUT_ENDPOINT_URL_HERE')
 
-##### All The Calls
+#### All The Calls
 - [https://www.myetherapi.com/](https://www.myetherapi.com/)
 
 If you are looking for very intense setup or most customizable stuff, we highly recommend just spinning up your own AWS clone of what we've done: https://github.com/MyEtherWallet/docker-geth-lb.
