@@ -35,10 +35,6 @@ If you are looking for very intense setup or most customizable stuff, we highly 
 
 ---
 
-**Disclaimer**
-
-- [Be safe & secure](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds) We highly recommend that you read our guide on How to Prevent Loss & Theft for some recommendations on how to be proactive about your security.
-
-- Always backup your keys.
+[Be safe & secure & always back up your keys.](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds).
 
 MIT License Copyright © 2015-2017 MyEtherWallet LLC
