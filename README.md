@@ -35,6 +35,6 @@ If you are looking for very intense setup or most customizable stuff, we highly 
 
 ---
 
-[Be safe & secure & always back up your keys.](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds).
+[Be safe & secure & always back up your keys.](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds)
 
 MIT License Copyright © 2015-2017 MyEtherWallet LLC
