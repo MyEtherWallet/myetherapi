@@ -31,7 +31,7 @@ If you are looking for very intense setup or most customizable stuff, we highly 
 
 ##### Help • [Knowledge Base](https://myetherwallet.groovehq.com/help_center) • [Email Suppport](mailto:support@myetherwallet.com) • [Helpful Utils &amp; ENS Debugging](https://www.myetherwallet.com/helpers.html)
 
-##### Social: [Facebook](https://www.facebook.com/MyEtherWallet/) • [Linkedin](https://www.linkedin.com/company/myetherwallet) • [Medium](https://medium.com/@myetherwallet_96408) • [Reddit](https://www.reddit.com/r/MyEtherWallet/) • [Slack](https://myetherwallet.herokuapp.com/) • [Twitter](https://twitter.com/myetherwallet)
+##### Social: [Facebook](https://www.facebook.com/MyEtherWallet/) • [Linkedin](https://www.linkedin.com/company/myetherwallet) • [Medium](https://medium.com/@myetherwallet) • [Reddit](https://www.reddit.com/r/MyEtherWallet/) • [Slack](https://myetherwallet.herokuapp.com/) • [Twitter](https://twitter.com/myetherwallet)
 
 ---
 
